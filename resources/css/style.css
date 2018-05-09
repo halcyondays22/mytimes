@@ -1,11 +1,13 @@
-.header {
+div.header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   padding: 20px;
   flex-wrap: nowrap;
-
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 #logo_supplement {
@@ -23,22 +25,20 @@
 ul#navigation {
   list-style-type: none;
   display: inline-flex;
-  padding-left: 0;
-  margin: 0;
-  float: right;
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 70px;
 }
 
 li span {
   display: inline-block;
-  width: 100px;
+  width: 100%;
+  padding: 0 20px 20px 20px;
 }
 
 li a {
   color: #111;
-  padding: 8px;
+
 }
 
 img {
